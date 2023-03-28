@@ -1,0 +1,356 @@
+h3{
+    font-family: 'Playball', cursive;
+}
+
+.h1{
+    font-family: 'Playball', cursive;
+    color: rgb(0, 0, 76);
+}
+
+h2{
+    font-family: 'Playball', cursive;  
+}
+
+.carousel-inner{
+    border-radius: 2%;
+}
+
+
+.nav-item{
+    background-color: #79B4EC;
+    border-radius: 10px;
+}
+
+.nav-item:hover{
+    background-color: #ffffff;
+    border-radius: 10px;
+border: #79B4EC;
+}
+
+.menu{
+    
+    color: #ffffff;
+}
+
+.imob{
+    border-radius: 20px;
+
+}
+
+.ob{
+    display: flex;
+    justify-content: center;
+}
+.im{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.card-img-top{
+    width: 200px;
+}
+.objetivo{
+background-color: #79b4ec42;
+}
+
+.mv{
+    display: flex;
+    justify-content: center;
+}
+.menu:hover{
+color: #79B4EC;
+}
+
+
+.p1{
+    display: flex;
+    justify-content: center;
+} 
+
+.p2{
+    display: flex;
+    justify-content: center;
+}
+
+.p3{
+    display: flex;
+    justify-content: center;
+}
+
+.card-text{
+width: 700px;
+text-align: center;
+
+} 
+.centrar{
+text-align: center;
+}
+.card-img2{
+    width: 300px;
+}
+.card-img-overlay{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.ljuego{
+    color: rgb(255, 255, 255);
+    font-family: 'Playball', cursive;
+    background-color: #79B4EC;
+    border-radius: 5px;
+    width: 180px;
+
+}
+
+.card-titles{
+  text-align: center;
+}
+
+.imagenes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.imagenes:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.m{
+    display: flex;
+    justify-content: center;
+}
+
+.v{
+    display: flex;
+    justify-content: center;
+}
+
+.tcentrar{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    width: 320px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-body{
+    width: 100%;
+    height: 100%;
+    top:0;
+    right: -100%;
+    position: absolute;
+    background-color: rgba(21, 16, 38, 0.444);
+    backdrop-filter: blur(5px);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+    border-radius: 15px;
+}
+
+.cards:hover .card-body{
+    
+    right: 0;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+.text{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+}
+
+
+
+
+
+.footer{
+    height: 120px;
+    text-align: center;
+    background-color: #79b4ec42;
+}
+.fondo:hover{
+    opacity: 1;
+    }
+    
+    
+    .centrar figure{
+    
+    cursor: pointer;
+    }
+    
+    .centrar figure img{
+        transition: all 500ms ease-out;
+    }
+    .centrar figure .capa{
+        width: 200px;
+        height: 12rem;
+       position: absolute;
+       margin-top: -12rem;
+       border-radius: 50%;
+        background-color: #ffffff57;
+        transition: all 500ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .centrar figure:hover > .capa{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+.redes{
+    background-color: #79b4ec42;
+}
+
+    .red1 figure img{
+        transition: all 500ms ease-out;
+    }
+    .red1 figure .capas{
+        width: 25px;
+        height: 25px;
+       position: absolute;
+       margin-top: -25px;
+       margin-left: 891px;
+       
+       border-radius: 50%;
+        background-color: #ffffff57;
+        transition: all 500ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       
+    }
+    .red1 figure:hover > .capas{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .red2 figure img{
+        transition: all 500ms ease-out;
+    }
+    .red2 figure .capas2{
+        width: 25px;
+        height: 24px;
+       position: absolute;
+       margin-top: -24px;
+       background-color: #ffffff8c;
+        transition: all 500ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .red2 figure:hover > .capas2{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .cardss{
+        position: relative;
+        width: 300px;
+        height: 350px;
+    }
+
+    .cardss .face{
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        backface-visibility: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: .5s;
+    }
+
+    .cardss .front{
+        transform: perspective(600px) rotateY(0deg);
+        box-shadow: 0 5px 10px #000;
+    }
+
+    .cardss .front .img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+
+  
+
+.cardss  .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    background-color:#456f96;
+    text-align: center;
+}
+
+    .cardss .back{
+        transform: perspective(600px) rotateY(180deg);
+        background-color: rgb(32, 43, 65);
+        padding: 15px;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        box-shadow: 0 5px 10px #000;
+    }
+    .cardss .back h3{
+        font-size: 30px;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+
+    .cardss .back p{
+        letter-spacing: 1px;
+    }
+
+    .cardss:hover .front{
+        transform: perspective(600px) rotateY(180deg);
+    }
+
+    .cardss:hover .back{
+        transform: perspective(600px) rotateY(360deg);
+    }
+.s{
+    width: 600px;
+}
+    .texto2{
+        font-size: 20px;
+        background-color: #0000005c;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .texto3{
+        font-size: 20px;
+        background-color: #0000005c;
+        padding: 5px;
+        border-radius: 10px;
+    }
