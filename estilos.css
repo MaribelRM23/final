@@ -1,12 +1,40 @@
+.l{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 h3{
     font-family: 'Playball', cursive;
 }
-
+.menu{
+    font-family: 'Playball', cursive;
+}
 .h1{
     font-family: 'Playball', cursive;
     color: rgb(0, 0, 76);
+    text-align: center;
 }
+.sc{
+    text-align: center;
+}
+.bh{
+text-align: center;
 
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.objetivo{
+    background-color: #79b4ec42;
+}
+.ab{
+    background-color: #79b4ec42;
+height: 100px;
+}
+.h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
 h2{
     font-family: 'Playball', cursive;  
 }
@@ -26,7 +54,9 @@ h2{
     border-radius: 10px;
 border: #79B4EC;
 }
-
+.h{
+    text-align: center;
+}
 .menu{
     
     color: #ffffff;
@@ -38,8 +68,7 @@ border: #79B4EC;
 }
 
 .ob{
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .im{
     
@@ -51,13 +80,12 @@ border: #79B4EC;
 .card-img-top{
     width: 200px;
 }
-.objetivo{
-background-color: #79b4ec42;
-}
+
 
 .mv{
     display: flex;
     justify-content: center;
+    background-color: #79b4ec42;
 }
 .menu:hover{
 color: #79B4EC;
@@ -339,13 +367,27 @@ align-items: center;
         transform: perspective(600px) rotateY(360deg);
     }
 .s{
-    width: 600px;
+    
+    width: 75rem;
+}
+.ps{
+    text-align: center;
+    width: 70rem;
+}
+h6{
+    text-align: center;
 }
     .texto2{
         font-size: 20px;
         background-color: #0000005c;
         padding: 5px;
         border-radius: 10px;
+
+    }
+
+    .tex{
+        display: flex;
+        justify-content: center;
     }
 
     .texto3{
@@ -354,3 +396,84 @@ align-items: center;
         padding: 5px;
         border-radius: 10px;
     }
+/*====juega ahora (intento)===*/
+
+#Aven {
+    margin-top:50px;
+    background-image: linear-gradient(rgb(174, 190, 248), rgb(161, 247, 238));              
+    display:flex;
+    justify-content: center; 
+    padding-bottom: 250px; 
+    
+}
+.t{
+    margin-top: 200px;
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #00fff2, #00ffd5, #00ffa6, #00c8ff, #b2dff1);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #020561
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0687aa;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+
+
+
+
+
