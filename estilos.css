@@ -411,6 +411,9 @@ h6{
 }
 
 .glow-on-hover {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Playball', cursive;
     width: 220px;
     height: 50px;
     border: none;
